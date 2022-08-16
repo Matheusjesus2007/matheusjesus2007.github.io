@@ -1,9 +1,12 @@
 body {
     background-color: aliceblue;
+    padding: 3%;
 } 
 
 h1 {
     font-family: sans-serif;
+    text-align: center;
+
 }         
 
 h2 {
@@ -13,6 +16,13 @@ h2 {
     line-height: 1.1;
     background-color: beige;
 }
+
+.descricao {
+    position: absolute;
+    top: 36%;
+    right: 8%;
+}
+
 
 .res {
     font-size: 30px;
@@ -29,5 +39,18 @@ h2 {
     text-decoration: underline;
 }
 
+#fotom {
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: aqua;
+}
 
+.image-container {
+    height: 300px;
+    position: relative;
+}
 
+ul li:nth-child(odd) {
+  background-color: blueviolet;
+}
